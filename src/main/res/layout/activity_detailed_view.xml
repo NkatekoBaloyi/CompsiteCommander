@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img_2"
+    tools:context=".DetailedView">
+
+    <Button
+        android:id="@+id/btnDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Display the List"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+
+    <TextView
+        android:id="@+id/txtViewList"
+        android:layout_width="match_parent"
+        android:layout_height="552dp"
+        android:layout_gravity="center_vertical"
+        android:fontFamily="@font/amiri_quran"
+        android:gravity="center_vertical"
+        android:text="look at what you chose for the camp week⛺🏕️🥾🚙"
+        android:textSize="21sp"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home Page"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="147dp" />
+</LinearLayout>

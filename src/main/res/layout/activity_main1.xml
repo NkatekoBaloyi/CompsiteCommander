@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img_2"
+    tools:context=".MainActivity1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:background="#CCC7C7"
+        android:textColor="@color/black"
+        android:text="Camping Packing List"
+        android:gravity="center"
+        android:fontFamily="@font/amiri_quran"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <EditText
+        android:id="@+id/edtItemName"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Item Name"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <EditText
+        android:id="@+id/edtCategory"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Category"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+    <EditText
+        android:id="@+id/edtQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Quantity"
+        android:textSize="19sp"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <EditText
+        android:id="@+id/edtComments"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Comments"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+
+    <Button
+        android:id="@+id/btnAddItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Item"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="578dp" />
+
+    <Button
+        android:id="@+id/btnViewItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View the Total Items Add"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="392dp" />
+
+    <TextView
+        android:id="@+id/txtTotalItems"
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        android:layout_gravity="center_vertical"
+        android:background="#CCC7C7"
+        android:fontFamily="@font/amiri_quran"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="Total Items Added"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="487dp" />
+
+</LinearLayout>
